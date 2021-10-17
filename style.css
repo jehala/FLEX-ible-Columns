@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+
+}
+
+.col, .col-2, .col-3{
+    height: 100px;
+    background-color:teal;
+    flex: 1
+    
+}
+
+.col-2 {
+    flex:2;
+}
+
+.col-3 {
+    flex:3;
+}
